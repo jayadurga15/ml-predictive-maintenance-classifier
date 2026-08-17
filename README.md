@@ -1,6 +1,7 @@
 # Predictive Maintenance — Machine Failure Classification
 
 **BITS Pilani WILP — M.Tech (AIML/DSE) — Machine Learning — Assignment 2**
+**NAME:** Jayadurga Ija | **BITS ID:** 2025DA04260
 
 ---
 
@@ -56,7 +57,7 @@ training script and the Streamlit app so raw uploads are transformed identically
 
 ## c. GitHub Repository Link
 
-**`<PASTE YOUR GITHUB REPO URL HERE AFTER PUSHING>`**
+**https://github.com/jayadurga15/ml-predictive-maintenance-classifier**
 
 ## d. Models Used
 
@@ -124,31 +125,11 @@ python model/train_models.py     # retrains all 5 models (optional — .pkl file
 streamlit run app.py
 ```
 
-## Streamlit App Features
-
-- **Dataset upload (CSV):** upload your own test CSV in the raw AI4I 2020 schema
-  (`Type`, the 5 sensor columns, and optionally `Machine failure` for evaluation), or use the
-  bundled `test_data.csv` sample.
-- **Model selection dropdown:** switch between all 5 trained models.
-- **Evaluation metrics:** Accuracy, AUC, Precision, Recall, F1, MCC — computed live if the
-  uploaded data includes the true `Machine failure` label.
-- **Confusion matrix & classification report:** visual + per-class breakdown for the selected model.
-- **Model comparison table:** all 5 models' held-out test performance, side by side.
-
-## Deployment (Streamlit Community Cloud)
-
-1. Push this repository to GitHub.
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub.
-3. Click **New App** → select this repository → branch `main` → main file `app.py`.
-4. Click **Deploy**.
 
 ## Live App Link
 
-**`<PASTE YOUR STREAMLIT COMMUNITY CLOUD APP URL HERE AFTER DEPLOYING>`**
+**https://ml-predictive-maintenance-classifier-dsdywxibxr68iva9o2z3pe.streamlit.app/**
 
-## BITS Virtual Lab Screenshot
-
-**`<INSERT SCREENSHOT OF ASSIGNMENT EXECUTION ON BITS VIRTUAL LAB HERE>`**
 
 ---
 
