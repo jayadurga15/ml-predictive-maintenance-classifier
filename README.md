@@ -61,9 +61,9 @@ training script and the Streamlit app so raw uploads are transformed identically
 
 ## d. Models Used
 
-All 5 models were trained on an 80/20 stratified train-test split (stratified because of the
+All 6 models were trained on an 80/20 stratified train-test split (stratified because of the
 ~3.4% positive class rate) with `random_state=42`. Logistic Regression, kNN, and Naive Bayes
-were trained on standardized features; Decision Tree and Random Forest (scale-invariant) were
+were trained on standardized features; Decision Tree, Random Forest (scale-invariant) and SVM were
 trained on raw feature values. Class imbalance was handled via `class_weight="balanced"` for
 Logistic Regression, Decision Tree, and Random Forest.
 
